@@ -3,10 +3,11 @@
 This project explored the design and implementation of a spike-based attractor network capable of learning attractor dynamics and classifying its patterns on [Intel Loihi](https://www.intel.com/content/www/us/en/research/neuromorphic-computing.html). <br />
 Find the paper [here](add link).
 
-## Abstract
-The exploration of brain-inspired, spike-based computation in electronic systems is underway with the aim of developing unconventional computing technologies that possess brain-like computing abilities. The Loihi neuromorphic processor provides a low-power, large-scale network of programmable silicon neurons for brain-inspired artificial intelligence applications. In this paper, we exploit the Loihi processors and a theory-guided methodology for enabling autonomous on-the-fly learning. 
-Our method ensures an efficient and rapid selection of the network's hyperparameters, enabling the neuromorphic processor to generate attractor states through unsupervised learning in real-time.
-These states are effective models of working memories and decision-making processes in the human brain. Specifically, we follow a fast design process, where we fine-tune network parameters using mean-field theory. Moreover, we measure the network's learning ability in terms of its error correction and pattern completion aptitude. Finally, we measured neuron cores' dynamic energy consumption of 3.23uJ/timestep during learning and 0.24uJ/timestep during the recall phase for four attractors composed of 512 excitatory neurons and 256 shared inhibitory neurons. This study showcases how large-scale, low-power digital neuromorphic processors can be quickly pre-programmed to enable the autonomous generation of attractor states. These attractors are fundamental computational primitives that theoretical analysis and experimental evidence indicate as versatile and reusable components suitable for a wide range of cognitive tasks.
+## Paper
+
+Ryoga Matsuo, Ahmed Elgaradiny, and Federico Corradi "Unsupervised Classification of Spike Patterns with the Loihi Neuromorphic Processor", under-review, 2024
+
+
 ## Table of Contents
 
 - [Project Overview](#project-overview)
